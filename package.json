@@ -1,0 +1,21 @@
+{
+  "name": "ryunix-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "homepage": "./",
+  "scripts": {
+    "dev": "ryunix server",
+    "build": "ryunix build",
+    "serve": "serve .ryunix"
+  },
+  "engines": {
+    "node": ">=18.16.0"
+  },
+  "dependencies": {
+    "@unsetsoft/ryunixjs": "^0.5.9-nightly.13",
+    "serve": "^14.2.3"
+  },
+  "devDependencies": {
+    "@unsetsoft/ryunix-webpack": "^0.5.9-nightly.13"
+  }
+}
