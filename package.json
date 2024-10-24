@@ -12,10 +12,10 @@
     "node": ">=18.16.0"
   },
   "dependencies": {
-    "@unsetsoft/ryunixjs": "^0.5.9-nightly.13",
+    "@unsetsoft/ryunixjs": "latest",
     "serve": "^14.2.3"
   },
   "devDependencies": {
-    "@unsetsoft/ryunix-webpack": "^0.5.9-nightly.13"
+    "@unsetsoft/ryunix-webpack": "latest"
   }
 }

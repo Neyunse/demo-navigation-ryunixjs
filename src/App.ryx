@@ -18,20 +18,31 @@ function Test() {
   )
 }
 
+const NotFound = () => {
+  return (
+    <div>
+      <h1>404 - Page Not Found</h1>
+    </div>
+  );
+};
 
 
 const App = () => {
   const routes = [
     { path: '/', component: <Home /> },
     { path: '/test', component: <Test /> },
+    { NotFound: <NotFound /> },  
   ];
-  const { Children, navigate } = useRouter(routes);
+  
+  const { Children, NavLink } = useRouter(routes);
 
   return (
     <div>
       <nav>
-        <button onClick={() => navigate('/')}>Home</button>
-        <button onClick={() => navigate('/test')}>Test</button>
+        <NavLink to="/">Home</NavLink>
+        <NavLink to="/test">Test</NavLink>
+        <NavLink to="/this-not-exist">404</NavLink>
+
       </nav>
       <div>
         <Children />

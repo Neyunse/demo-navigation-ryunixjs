@@ -4,6 +4,4 @@ import Ryunix from "@unsetsoft/ryunixjs";
 import App from "./App";
 import "./styles/global.css"
 
-
-const container = document.getElementById("__ryunix")
-Ryunix.render(<App />, container);
+Ryunix.init(<App />);
