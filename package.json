@@ -8,9 +8,7 @@
     "build": "ryunix build",
     "serve": "serve .ryunix"
   },
-  "engines": {
-    "node": ">=18.16.0"
-  },
+ 
   "dependencies": {
     "@unsetsoft/ryunixjs": "latest",
     "serve": "^14.2.3"
