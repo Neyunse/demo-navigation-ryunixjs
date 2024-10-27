@@ -1,0 +1,10 @@
+function Home() {
+    return (
+        <>
+            <h1>Home</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at congue lacus. Morbi id enim sed nisi auctor ornare eget eget arcu. Vivamus semper porta nunc, a ultrices tortor elementum ut. Vivamus accumsan, tellus in rhoncus mattis, nunc nisi malesuada felis, sit amet pretium leo dolor non mi. Phasellus sollicitudin tortor eu consectetur pretium. Praesent cursus dolor quis magna laoreet commodo. Donec lectus tellus, ultricies id vulputate eget, hendrerit a ipsum.</p>
+        </>
+    )
+}
+
+export default Home

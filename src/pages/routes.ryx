@@ -1,0 +1,13 @@
+import Home from "./home"
+import About from "./about"
+import TestParams from "./testParam"
+import NotFound from "./404"
+
+const routes = [
+    { path: '/', component: Home, label: "Home" },
+    { path: '/about', component: About, label: "About"},
+    { path: '/test/:id', component: TestParams, noRenderLink: true},
+    { NotFound: NotFound },  
+  ];
+
+export default routes

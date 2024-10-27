@@ -1,0 +1,11 @@
+function About() {
+    return (
+      <>
+        <h1>About</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at congue lacus. Morbi id enim sed nisi auctor ornare eget eget arcu. Vivamus semper porta nunc, a ultrices tortor elementum ut. Vivamus accumsan, tellus in rhoncus mattis, nunc nisi malesuada felis, sit amet pretium leo dolor non mi. Phasellus sollicitudin tortor eu consectetur pretium. Praesent cursus dolor quis magna laoreet commodo. Donec lectus tellus, ultricies id vulputate eget, hendrerit a ipsum.</p>
+        <p>Vestibulum magna sapien, interdum et dapibus at, euismod quis magna. Curabitur pellentesque vitae nibh sit amet pulvinar. Phasellus feugiat, est ut tempus vehicula, dui dolor porta nisl, in iaculis felis turpis sit amet libero. Pellentesque convallis facilisis arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas cursus tincidunt lectus, ut tempus ipsum pulvinar eget. Ut imperdiet massa nisl, quis tempus nisl venenatis sed.</p>
+      </>
+    )
+  }
+
+export default About

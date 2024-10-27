@@ -8,12 +8,11 @@
     "build": "ryunix build",
     "serve": "serve .ryunix"
   },
- 
   "dependencies": {
-    "@unsetsoft/ryunixjs": "latest",
+    "@unsetsoft/ryunixjs": "1.1.4",
     "serve": "^14.2.3"
   },
   "devDependencies": {
-    "@unsetsoft/ryunix-webpack": "latest"
+    "@unsetsoft/ryunix-webpack": "1.1.4"
   }
 }

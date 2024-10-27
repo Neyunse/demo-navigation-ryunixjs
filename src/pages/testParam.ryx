@@ -1,0 +1,10 @@
+const TestParams = ({params, query}) => {
+    return (
+      <div>
+        <h1>Test Query & Params</h1>
+        <p>ID: {params.id} | {query.message}</p>
+      </div>
+    );
+  };
+
+export default TestParams
